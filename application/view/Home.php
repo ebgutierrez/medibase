@@ -54,11 +54,11 @@
 <!-- ------------------------------------------------------------------------------- -->
 <div class="bodyWrap">
 	<div class="bodyColumn1">
-    	<h5>Mission Ni siya nooh</h5>
+    	<h5>Mission Ni siya noohd dfv df vlafv l</h5>
         <p class="misDescription">
         	{$mission} 
         </p>
-    	<h5>Vision</h5>
+    	<h5>Vision dsf asf</h5>
         <p class="visDescription">
         	{$vision}         
         </p> 
