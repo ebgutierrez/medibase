@@ -1,0 +1,20 @@
+.clients_ul,.clients_ul ul {
+	list-style: none;
+}
+
+.clients_ul ul {
+	margin-left: 20px;
+}
+
+.clients_ul ul li {
+	margin-bottom:  10px;
+}
+
+.clients_ul .company_name {
+	font-weight: bold;
+}
+
+.clients_ul .location,.clients_ul .contact, .clients_ul .contact_num {
+	text-indent: 20px;
+}
+

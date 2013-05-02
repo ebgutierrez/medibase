@@ -1,0 +1,28 @@
+.subcat_thumb {
+	height: 200px;
+    margin: 10px 5px 0 0;
+}
+
+#progress_bar {
+	position: absolute;
+	right: 0px;
+	left: -4px;
+    margin: 10px 4px;
+    border: 1px solid #000;
+    font-size: 14px;
+    clear: both;
+    opacity: 0;
+    font-size: 12px;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -webkit-transition: opacity 1s linear;
+    width: 265px;	
+}
+#progress_bar.loading {
+	opacity: 1.0;
+}
+#progress_bar .percent {
+	background-color: #99ccff;
+	height: auto;
+	width: 0;
+}

@@ -1,0 +1,133 @@
+.product_box {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.product_box .product_details {
+	height: 100%;
+}
+
+.product_box .product_details table {
+	text-align: left;
+	margin-left: 0px;
+}
+
+.product_box .product_details table img {
+	width: 75px;
+	height: 94px;
+}
+
+.product_box .product_details table td.label {
+	padding-left: 20px !important;
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.product_box div.label {
+	padding-top: 10px;
+	font-size: 18px;
+}
+
+.product_box .product_details table td.price {
+	vertical-align: bottom;
+	font-size: 23px;
+}
+
+.product_box .product_details img.prod_image {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 125px;
+	height: 177px;
+}
+
+.product_box .product_details ul {
+	margin-left:50px;
+}
+
+.product_box .product_details .readMore {
+	background: #41BB19;
+	color: white;
+	padding: 5px;
+}
+
+.product_box .implementations {
+	text-indent: 20px;
+}
+
+.inquire_button {
+	
+	width: auto;
+	height: auto;
+	font-size: 22px;	
+	cursor: pointer !important;
+}
+
+.inquire_button a {
+	color: white;
+	background: #41BB19;
+	padding: 8px 10px 8px 10px;
+}
+
+.send_inquiry {
+	padding-top: 20px;
+}
+
+.send_inquiry a.send {
+	background: #41BB19;
+	color: white;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.send_inquiry a.continue {
+	font-size: 20px;
+	text-decoration: underline;
+	color: black;
+}
+
+.customer_information {
+	width: 500px;
+	background: white;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;	
+	position: fixed;
+	display: none;
+	margin: 0 auto;
+	z-index: 1000;
+}
+
+.customer_information table {
+	margin-top:-5px;
+}
+
+.customer_information textarea {
+	resize: none;
+	height: 100px;
+}
+
+.customer_information td.input {
+	padding-left:10px; 
+}
+
+.customer_information input[type="submit"],.customer_information input[type="reset"]{
+	background:  #41BB19;
+	color: white;
+	border:0 solid transparent;
+	padding: 8px 20px 8px 20px;
+}
+
+.customer_information a.close {
+	float: right;
+	background: red;
+	color: white;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 5px;
+}
