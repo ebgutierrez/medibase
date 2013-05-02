@@ -54,7 +54,7 @@
 <!-- ------------------------------------------------------------------------------- -->
 <div class="bodyWrap">
 	<div class="bodyColumn1">
-    	<h5>Mission</h5>
+    	<h5>Mission Ni siya nooh</h5>
         <p class="misDescription">
         	{$mission} 
         </p>
