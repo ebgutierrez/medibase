@@ -1,0 +1,590 @@
+.topWrap{
+	background:;
+	position:relative;
+	margin:auto auto 30px;
+	height:130px;
+	width:auto;
+	border:0px solid #000;
+}
+.topColumn{
+	position:relative;
+	margin:auto;
+	height:130px;
+	width:960px;
+	border:0px solid #000;
+}
+.logo{
+	position:relative;
+	margin:0;
+	top:15px;
+	height:auto;
+	/*width:300px;*/
+	border:0px solid #0F0;
+}
+
+.logo img {
+	width:250px;
+	height: 110px;
+}
+.searchBar{
+	position:relative;
+	float:right;
+	right:0;
+	top:-20px;
+	height:auto;
+	padding-left:5px;
+	color: #CCC;
+	width:200px;
+	border:1px solid #CCC;
+}
+.menuWrap{
+	position:relative;
+	margin:auto;
+	height:50px;
+	width:auto;
+	border:0px solid #0F0;
+	border-top: 1px solid #eee !important;
+	border-bottom: 1px solid #eee !important;
+	background: #fafafa;
+	background-repeat: repeat-x;
+}
+.homeMenu{
+	position:relative;
+	margin:auto;
+	height:50px;
+	width:960px;
+	border:0px solid #90C;
+	font-size: 14px;
+	color: #666 !important;
+
+}
+.menuSide{
+	float:left;
+	height:50px;
+	width:auto;
+	border:0px solid #000;
+}
+.menuSide ul{
+	position: relative;
+	left: 0;
+	display: block;
+	float: left;
+	margin: 0 10px 0 0;
+	list-style: none;
+}
+
+.menuSide * {
+	box-shadow: none !important;
+	text-shadow: none !important;
+	border-radius: 0px !important;
+	font-weight: normal !important;
+}
+.menuSide ul li{
+	border: 0px solid #000;
+	padding: 10px 20px 10px 20px;
+	float: left;
+	display: list-item;
+	text-align: -webkit-match-parent;
+	height: 50px;
+	line-height: 30px;
+}
+.menuSide ul li a{
+	text-decoration:none;
+	color: #666;
+	font-size:18px;
+	font-weight:500;
+}
+.menuSide ul li:hover{
+	background-color: #f3f3f3;
+}
+
+.menu_selected {
+	background-color: #f3f3f3;
+}
+.animationWrap{
+	background:none repeat scroll 0 0 #41BB19;
+	position:relative;
+	margin:auto;
+	height:300px;
+	border:0px solid #900;
+}
+.animation{
+	position:relative;
+	margin:auto;
+	height:300px;
+	width:960px;
+	border:0px solid #900;
+	overflow: hidden;
+}
+.pic_container {
+	height: 300px;
+}
+.image{
+	position:relative;
+	margin:auto;
+	top:0px;
+	height:auto;
+	width:auto;
+	border:0px solid #000
+}
+.image img{
+	height:300px;
+	width:960px;
+}
+.bodyWrap{
+	position:relative;
+	margin:auto;
+	height:auto;
+	width:960px;
+	border:0px solid #0F0;
+}
+.bodyColumn1,.bodyColumn2{
+	position:relative;
+	float:left;
+	height:auto;
+	padding-top:20px;
+
+}
+.bodyColumn,.mission{
+	font-size:.9em;
+	color: #666;	
+}
+.bodyColumn, .misDescription{
+	padding-top:5px;	
+}
+.bodyColumn,.vision{
+	font-size:.9em;
+	color: #666;
+	padding-top:30px;	
+}
+.bodyColumn, .visDescription{
+	padding-top:5px;
+	padding-bottom:0px;	
+}
+.bodyColumn1{
+	width:480px;
+	text-align:justify;
+}
+.bodyColumn2{
+	width:400px;
+	float:right;
+}
+.galleryTitle{
+	color: #868686;
+	font-size:.8em;
+	font-weight:580;
+}
+.galleryBody{
+	position:relative;
+	border:0px solid #E6E6E6;
+	height:auto;
+	width:auto;
+}
+.galleryBody img{
+	height:auto;
+	width:400px;
+}
+.services{
+	position:relative;
+	border:0px solid #CCC;
+}
+.servicesTitle{
+	position:relative;
+	height:30px;
+	
+	font-size:.9em;
+	border-bottom:1px solid #E0E0E0;
+	padding-bottom: 20px;
+}
+/* ----------------------------------------------------------------------------  */
+.frontEndImage{
+	border: 0 solid #666666;
+    height: 148px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.frontEndImage .nextPrevious {
+	width: inherit;
+	z-index: 1;
+	background: black;
+	position: relative;
+	top: 50px;
+	font-size: 50px;
+	font-weight: 600;
+	display: none;
+}
+
+.frontEndImage .nextPrevious .previous{ 
+	float: left;	
+	display: none;
+}
+
+.frontEndImage .nextPrevious .previous, .frontEndImage .nextPrevious .next {
+	cursor: pointer;
+}
+.frontEndImage .nextPrevious .next{ 
+	float: right;
+}
+
+.frontEndTable{
+	border: 0 solid #666666;
+    height: inherit;
+    position: absolute;
+}
+.img{
+	  margin:0px 5px 0px 5px;
+	  position:relative;
+	  float: left;
+	  width:auto;
+	  text-align: center;
+	  overflow:hidden; 
+	  width: 230px;
+	  height: inherit;
+	  background: #CCC;
+}	
+
+.img a{
+	border:0px;
+	color: transparent;
+}
+.img img{
+  position:relative;
+  display: inline;
+  width:230px;
+  height:inherit;
+}
+.desc{
+  background:#41bb19;
+  
+  font-size:.9em;
+  
+  
+  text-align:left;
+  
+  
+  color: #FFF;
+  
+
+
+
+  padding: 2px 2px 2px 5px;
+	position: absolute;
+	text-align: left;
+	width: 100%;
+	z-index: 1;
+	bottom: 0px;
+}
+/* -------------------------------------------------------------------------------- */
+.ourPartners{
+	position:relative;
+	height:auto;
+	width:960px;
+	border:0px solid #CCC;
+}
+.ourPartners, .title{
+	font-size:1.2em;
+	margin-bottom:20px;
+	border-bottom: 1px solid #E0E0E0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: auto;
+}
+.partnersBox1{
+	position:relative;
+	float:left;
+	height:auto;
+	width:225px;
+	text-align:left;
+  	margin:10px 15px 20px 0px;	
+	border:0px solid #000;
+	font-size:14px;
+}
+.partnersBox1 p{
+	line-height:30px;
+}
+.partnersBox1 p a{
+	text-decoration:none;
+	color: #666;
+}
+.partnersBox1 p a:hover{
+	color:#41BB19;
+}
+.footer{
+	background:#41bb19;
+	position:relative;
+	height:60px;
+	width:auto;
+	border:0px solid #000;
+}
+.copyrights{
+	position: relative;
+	height:100px;
+	border:0px solid #000;
+	width:auto;
+}
+.copyrights p{
+	width:370px;
+	margin:auto;
+	padding:10px;
+	margin-top:30px;
+	border:0px solid #000;
+}
+
+/* ----------------------------------Page 002 CSS Starts here -----------------------------------*/
+.page02Body{
+	position:relative;
+	margin:auto;
+	height:auto;
+	width:960px;
+	top:20px;
+	border:0px solid #000;
+}
+.page02ColumnOne, .page02ColumnTwo{
+	position:relative;
+	float:left;
+}
+.page02ColumnOne{
+	height:auto;
+	width:250px;
+	border:0px solid #666;
+}
+.page02ColumnOne li{
+	list-style:none;
+}
+.page02ColumnTwo{
+	height:auto;
+	width:710px;
+	border:0px solid #000;
+}
+.verticalMenu{
+	position:relative;
+	border:1px solid #CCC;
+	background:;
+	height:auto;
+	width:250px;
+}
+ul li.verticalMenuTitle{
+	background:#41BB19;
+	margin:0;
+	color:#FFF;
+	padding:10px 0px 10px 5px;	
+}
+.verticalMenu li{
+	line-height:1em;
+	padding:10px;
+	border-bottom:1px solid #CCC;
+}
+.verticalMenu li a{
+	text-decoration:none;
+	color:#666;
+}
+.verticalMenu li a:hover{
+	color:#666;
+	
+}
+.page02ColumnTwo_01, .page02ColumnTwo_02{
+	position:relative;
+	float:left;
+	padding-bottom:50px;
+	
+}
+.page02ColumnTwo_02{
+	height:150px;
+	width:263px;
+	/*border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;	
+	border-bottom: 1px solid #CCC;*/
+	padding-right: 15px;
+	padding-left: 33px;
+}
+.page02ColumnTwo_01{
+	width:375px;
+	margin:0px 0px 0px 10px;
+	border:0px solid #000;
+	height: 150px;
+	overflow: hidden;	
+	/*border-top: 1px solid #CCC;
+	border-left:  1px solid #CCC;
+	border-bottom: 1px solid #CCC;	*/
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+
+.page02ColumnTwo_01 ol,.page02ColumnTwo_01 ul {
+	margin-left: 30px;
+}
+
+.page02ColumnTwo_01 .readmore {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: blue;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.page02ColumnTwo_01 ol ul,.page02ColumnTwo_01 ol ul li{
+	/*padding-left: 20px;*/
+}
+
+.page02ColumnTwo_01 p {
+	text-align:justify;
+	font-size:.8em;
+	color: #666;
+}
+
+.page02ColumnTwo_01 p.Default {
+	font-size: 14px;
+}
+.page02ColumnTwo_02 img{
+	width:264px;
+	height:150px;
+	
+}
+.page02ColumnTwo_01Title{
+	position:relative;
+	width:auto;
+	text-align:justify;
+	color: #666;
+	font-size:1em;
+	padding-bottom:10px;
+}	
+/* ----------------------------------Page 002 CSS Ends here -----------------------------------*/
+/* ----------------------------------About us CSS Starts here ---------------------------------*/
+.aboutUs{
+	position: relative;
+	height: auto;
+	width: 690px;
+	float: left;
+	margin-left: 20px;
+	text-align: justify;
+}
+.aboutUsTile{
+	position: relative;
+	margin: auto;
+	font-size: 1.3em;
+	color: #666;
+	border-bottom: 1px solid #D7D7D7;
+	
+}
+.aboutUsBody{
+	text-align:justify;
+	color:#666;
+	font-size:.9em;
+	line-height:1.5em;
+}
+/* -------------------------------About us CSS Ends here -------------------------------------*/
+	
+.category_selected {
+	background: #ddd;
+}
+
+/*-------------------------------Chat---------------------------------------------------------*/
+.chat_panel {
+	width: 300px;
+	position: fixed;
+	top: 200px;
+	left: -268px;
+	/*left: 0;*/
+	padding: 5px;
+	z-index: 1000;
+}
+
+.chat_inner_panel {
+	position: relative;
+	width: auto;
+	height: auto;
+}
+
+.chat_online_panel {
+	float: left;
+	position: relative;
+	width: 260px;
+	height: auto;
+	border: 1px solid #ccc;
+	background: #3D3D3D;
+	color: #FFF;
+}
+.chat_button_panel {
+	float: right;
+	position: relative;
+	width: 37px;
+	height: 60px;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+	background: #3D3D3D;
+	color: #FFF;
+	left: -1px;
+}
+
+.chat_button_drawer {
+	writing-mode: lr-tb;
+	-webkit-transform: rotate(90deg);
+	moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	position: absolute;
+	font-size: 20px;
+	top: 15px;
+	left: -2px;
+}
+
+.chat_header {
+	background: #3D3D3D;
+	color: #FFF;
+	text-align: center;
+	padding-top: 17px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid;
+	font-size: 22px;
+}
+
+.chat_online_list {
+	padding: 10px;
+	text-align: left;
+	font-size: 18px;
+}
+
+
+.chat_online_list ul {
+	margin-left: 10px;
+	list-style: none;
+}
+
+.chat_online_list ul li{
+	padding-left: 10px;
+	text-indent: -10px;
+	cursor: pointer;
+}
+.chat_online_list ul li:before {
+      /* For a round bullet */
+      content:'\2022';
+      /* For a square bullet */
+      /*content:'\25A0';*/
+      display: block;
+      position: relative;
+      max-width: 0px;
+      max-height: 0px;
+      left: -10px;
+      top: -0px;
+      color: #00D8FF;
+      font-size: 30px;
+      padding-right: 10px;
+}
+
+.banner_loader {
+	position: absolute;
+	top: 142px;
+	left: 472px;
+	display: none;
+}
+
+.banner_loader img {
+	width: 30px;
+	height: 30px
+}

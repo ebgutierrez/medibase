@@ -1,0 +1,91 @@
+.contactUsWrapper{
+	top: 10px;
+	background: ;
+	position: relative;
+	margin:auto;
+	width: 400px;
+	height:auto;
+	border: 0px solid #E0E0E0;
+	border-bottom: 0px solid #A33336;
+}
+.contactTitle{
+	background:;
+	border-bottom: 1px solid #E0E0E0;
+	position: relative;
+	font-size: 1.5em;
+	color:#666666;
+	text-indent: 0px;
+
+	padding-bottom: 10px;
+}
+.contactData{
+	color:#666666;
+	font-size: 14px;
+}
+.con{
+	line-height: 1.2em;
+	text-indent: 5px;
+}
+
+
+
+
+		.contactUsMapWrapper{
+			position: relative;
+			background: ;
+			margin:auto;
+			width: 680px;
+			height:auto;
+			border: 0px solid #000;
+		}
+		.contactUsMapTitle{
+			position: relative;
+			color:#666666;
+			padding:10px 0 0 0;
+			border-bottom:1px solid #666666;
+			font-size: 18px;			
+		}
+		.contactUsDataMap{
+			top: 10px;
+			background: ;
+			position:relative;
+			height: 300px;
+			width: 680px;
+			border: 0px solid #000;
+
+		}.contactUsDataMap img{
+			width: 680px;
+			height: 300px;
+		}
+		.contactUsDataText{
+			border:0px solid #000;
+			position: relative;;
+			height: auto;
+			width: 700px;
+			top: 15px;
+			padding-bottom: 50px;
+		}
+
+
+		.inputbox{
+			width: 200px;
+			height: 30px;
+			border: 1px solid #E0E0E0;
+		}
+		.textArea{
+			max-width: 680px;
+			min-width: 680px;
+			min-height: 100px;
+			max-height: 200px;
+			resize:none;
+		}
+		.subButton{
+			position: relative;
+			height: 30px;
+			width: 200px;
+			border: 1px solid #E0E0E0;
+			top: 10px;
+		}
+		.no{
+			line-height: 1.2em;
+		}

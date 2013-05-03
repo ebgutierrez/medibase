@@ -1,0 +1,32 @@
+.verticalMenu.contact_widget {
+	margin-top: 10px;
+
+}
+
+.verticalMenu.contact_widget .verticalMenuTitle {
+	background: #008469;
+}
+
+.verticalMenu.contact_widget .company_name,.company_name {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.verticalMenu.contact_widget .address,.address {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.verticalMenu.contact_widget .mail,.mail {
+	margin-top: 20px;
+}
+
+.verticalMenu.contact_widget .mail a,.mail a {
+	color: blue;
+	font-style: italic;
+}
+
+.verticalMenu.contact_widget .contacts .contact_row,.contacts .contact_row {
+	margin-left: 30px;
+}
